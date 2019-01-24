@@ -1,0 +1,25 @@
+{
+    "name": "psfpro/math",
+    "description": "PHP math library",
+    "keywords": ["math", "big ing"],
+    "homepage": "https://github.com/psfpro/math",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "files": ["src/functions_include.php"],
+        "psr-4": {
+            "PsfPro\\Math\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PsfPro\\Math\\Test\\": "test/src"
+        }
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0.1"
+    }
+}
